@@ -1,0 +1,84 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --table-bg: #f4f4f4;
+    --border-color: #ccc;
+  }
+  
+  body.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #f0f0f0;
+    --table-bg: #2c2c2c;
+    --border-color: #555;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin: 5px 0 10px 0;
+  }
+  
+  .filters {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+  }
+  
+  .filters label {
+    font-weight: bold;
+  }
+  
+  .charts {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .charts div {
+    flex: 1;
+    min-width: 300px;
+    height: 250px;
+  }
+  
+  .table-container {
+    max-height: 350px;
+    overflow-y: auto;
+    border: 1px solid var(--border-color);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    background-color: var(--table-bg);
+    color: var(--text-color);
+  }
+  
+  th, td {
+    border: 1px solid var(--border-color);
+    padding: 4px 6px;
+  }
+  
+  th {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
