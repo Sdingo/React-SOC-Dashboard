@@ -14,6 +14,17 @@ A React-based Security Operations Center (SOC) dashboard that visualizes securit
 
 ---
 
+
+
+<img width="2810" height="1654" alt="4" src="https://github.com/user-attachments/assets/d85ce14d-3d8c-4b1f-a179-4e43ec7277e2" />
+
+
+## Darkmode
+
+<img width="2760" height="1460" alt="5" src="https://github.com/user-attachments/assets/cf469242-13fa-4192-b624-bd5d13b98624" />
+
+
+
 ## Problem Statement
 
 SOC analysts often deal with large volumes of alerts from different security tools. Navigating cluttered dashboards or scrolling through endless alert logs slows down response times and makes it harder to prioritize critical threats.
