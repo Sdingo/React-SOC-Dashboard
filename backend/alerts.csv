@@ -1,0 +1,6 @@
+AlertID,Timestamp,Source,Type,Severity,Description
+1,2025-09-04 08:00:00,Firewall,Malware,High,Detected malicious file
+2,2025-09-04 08:15:00,EDR,Suspicious Login,Medium,User login from unknown IP
+3,2025-09-04 08:30:00,SIEM,Phishing,High,Phishing email detected
+4,2025-09-04 08:45:00,Firewall,Malware,Low,Blocked known malicious IP
+5,2025-09-04 09:00:00,EDR,Malware,Medium,Detected ransomware behavior
